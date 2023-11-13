@@ -1,0 +1,60 @@
+.lista{
+    background-color: plum;
+    color: white;
+    margin: 20px;
+    border: 4px solid white;
+    padding: 10px;
+}
+.menu-item {
+    display: inline-block;
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .menu-item:hover {
+    background-color: #8a2be2; /* Cambia el color de fondo al pasar el ratón */
+    color: white; /* Cambia el color del texto al pasar el ratón */
+  }
+  .menu-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Muestra los elementos en línea (horizontalmente) */
+  }
+  .formulario {
+  max-width: 300px; /* Ajusta el ancho del formulario según sea necesario */
+}
+.parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.parallax-layer {
+    position: relative;
+    height: 100vh;
+    transform-style: inherit;
+    transform: translateZ(-1px) scale(2);
+}
+
+.parallax-layer h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.layer1 {
+    background-image: url('ewa.jpg'); /* Ruta de la imagen para la capa 1 */
+}
+
+.layer2 {
+    background-image: url('1.jpg'); /* Ruta de la imagen para la capa 2 */
+}
+
+.layer3 {
+    background-image: url('3.jpg'); /* Ruta de la imagen para la capa 3 */
+}
